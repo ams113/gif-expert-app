@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing components: GifGrid should renders correctly 1`] = `
+<div
+  className="centered"
+>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    foo
+  </h3>
+  <p
+    className="animate__animated__flash"
+  >
+    Loading...
+  </p>
+  <section
+    className="cards"
+  />
+</div>
+`;
+
+exports[`Testing components: GifGrid should show items when loaded correctly 1`] = `
+<div
+  className="centered"
+>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    foo
+  </h3>
+  <section
+    className="cards"
+  >
+    <GifGridItem
+      id="f00"
+      key="f00"
+      title="foo"
+      url="https://fake.dev/picture/fake.giff"
+    />
+    <GifGridItem
+      id="f01"
+      key="f01"
+      title="foo"
+      url="https://fake.dev/picture/fake.giff"
+    />
+  </section>
+</div>
+`;

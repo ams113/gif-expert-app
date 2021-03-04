@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing components: GifGridItem should renders correctly 1`] = `
+<article
+  className="card animate__animated animate__fadeIn"
+>
+  <div
+    className="card-content"
+  >
+    <img
+      alt="fakeText"
+      src="https://fake.dev/picture/fake.giff"
+    />
+    <p>
+      fakeText
+    </p>
+  </div>
+</article>
+`;
